@@ -42,7 +42,7 @@
 .nav-link::after {
   position: absolute;
   right: 0;
-  bottom: -1px;
+  bottom: 0;
   left: 0;
   height: 4px;
   border-radius: 2px;
@@ -52,12 +52,12 @@
   transform-origin: left;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link[href="./index.html"]::after,
+.nav-link.current::after,
 .nav-link:hover::after,
 .nav-link:focus-visible::after {
   transform: scaleX(1);
 }
-.nav-link[href="./index.html"] {
+.nav-link.current {
   color: var(--brand-hover);
 }
 .nav-link:hover,
