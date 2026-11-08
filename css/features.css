@@ -1,0 +1,27 @@
+/* Features */
+.features > .container {
+  width: auto;
+  max-width: 1158px;
+}
+.values-list {
+  display: flex;
+  gap: 24px;
+}
+.values-list > li {
+  width: calc((100% - 72px) / 4);
+}
+.feature-icon-wrap {
+  display: flex;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  border: 1px solid var(--text);
+  border-radius: 4px;
+  background-color: var(--light);
+}
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  fill: var(--dark);
+}
