@@ -5,7 +5,7 @@
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 .footer-brand {
   flex: 0 0 264px;
@@ -35,6 +35,6 @@
   margin: 0;
 }
 .footer-social .social-link:hover,
-.footer-social .social-link:focus-visible {
-  background-color: #31d0aa;
+.footer-social .social-link:focus {
+  background-color: #404bbf;
 }
