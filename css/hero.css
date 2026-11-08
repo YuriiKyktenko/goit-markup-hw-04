@@ -34,6 +34,7 @@
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--brand);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 .hero-btn:hover,
@@ -44,8 +45,4 @@
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-btn:hover,
-.hero-btn:focus-visible {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
