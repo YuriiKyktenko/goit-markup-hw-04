@@ -34,12 +34,12 @@
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--brand);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--brand-hover);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .hero-btn {
   transition:
